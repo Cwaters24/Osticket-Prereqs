@@ -12,7 +12,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -21,34 +21,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Enable Internet Information Services
-- Installed Web Platform Installer 
-- Instal My SQL And set up username and password 
-- C Plus Plus Redistributable
-- Config Permissions and instal OS Tickecting System 
+- Create Resource Group
+- Create Azure VM (Virtual Machine)
+- Download (microsoft remote desktop) mac users
+- Enable Internet Information Services (IIS)
+- Confirm Installed Correctly 
+  
+
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+To get started with the OSticketing Lab the first steps are to create your resource group which as you can see in the picture below i created my resource group with name of RG-osticket, And then after creating the resource group i created my virtual machine listed as VM-osticket.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
+<img width="520" alt="Screenshot 2024-03-05 at 12 29 36 PM" src="https://github.com/Cwaters24/Osticket-Prereqs/assets/147946985/46489525-a156-4c39-9ebb-d4ac06b6bf61">
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the resource group is created as well as the vm, im going to copy the ip address as you can see below and then use my Microsoft Remote Desk top to log into the VM and then begin to start to downlaod the prerequisites on the VM.
 </p>
-<br />
+<img width="539" alt="Screenshot 2024-03-05 at 12 41 19 PM" src="https://github.com/Cwaters24/Osticket-Prereqs/assets/147946985/b1b92054-628c-4b47-b901-e286a866c462">
+
+After logging into VM, I then proceeded to install all prerequisites starting with installing and enabling IIS (Internet Information Services) (also know as a web server that allows this computer to serve up websites like the Os ticketing system because it runs out of a website) were installling with Windows C with CGI.
+
+<p><img width="539" alt="Screenshot 2024-03-05 at 1 10 57 PM" src="https://github.com/Cwaters24/Osticket-Prereqs/assets/147946985/79368a07-0b12-49b8-ab00-bf4503fa8e83">
+  
+<img width="536" alt="Screenshot 2024-03-05 at 1 17 37 PM" src="https://github.com/Cwaters24/Osticket-Prereqs/assets/147946985/16c86de4-dd7d-4207-9db6-d9c2b216519b">
+
+<img width="542" alt="Screenshot 2024-03-05 at 1 19 49 PM" src="https://github.com/Cwaters24/Osticket-Prereqs/assets/147946985/bd694f1e-a2a6-4ad0-8836-67a99b2c8355">
+
+After Instalation is complete you want to test it by going to a web browser on the VM to make sure the downlaod was completed by entering in 127.0.0.1 into the search bar. *Key Note* You want to make sure you see the blue Internet Information Services screen comes up to make sure its downloaded correctly.
+
+
+<img width="542" alt="Screenshot 2024-03-05 at 1 26 13 PM" src="https://github.com/Cwaters24/Osticket-Prereqs/assets/147946985/4f5d391e-a723-49c5-93b1-e47a6a03fa9a">
+
+
